@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+	<!-- Main styles file -->
+</head>
+<body>
+	
+	<!-- Animated background -->
+	<canvas id="bg-canvas"></canvas>
+
+	
+	<!-- JavaScripts -->
+	
+	<script src="app/js/jquery.min.js"></script>
+	<script src="app/js/bezierCanvas.js"></script>
+	
+	<script type="text/javascript">
+	$().ready(function(){
+	
+
+			
+		// Activate bezierCanvas plugin on a #bg-canvas element
+		$("#bg-canvas").bezierCanvas({
+			maxStyles: 3,
+			maxLines: 80,
+			strokeWidth: 0.5,
+			lineSpacing: 0.07,
+			spacingVariation: 0.07,
+			colorBase: {r: 100,g: 120,b: 200},
+			colorVariation: {r: 50, g: 50, b: 50},
+			moveCenterX: 0,
+			moveCenterY: 0,
+			delayVariation: 4,
+			globalAlpha: 0.4,
+			globalSpeed:200,
+		});
+	
+
+		
+	});
+	</script>
+
+</body>
+</html>
