@@ -35,7 +35,7 @@
 }
 
 .inner-page .header {
-  background-color: #141A31;
+  background-color: #000;
 }
 
 #main-nav .menu {
@@ -50,7 +50,7 @@
 #main-nav .menu li a {
   font-size: 16px;
   line-height: 24px;
-  font-family: "Chakra Petch", sans-serif;
+  font-family: "Spoqa Han Sans Neo", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   position: relative;
@@ -128,7 +128,7 @@
   top: -100px;
   left: 0;
   width: 100%;
-  background-color: #141A31;
+  background-color: #000;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1), inset 0px 1px 0px #ECECEC;
 }
 #header_main.is-fixed.is-fixed.is-small {
@@ -186,7 +186,7 @@
   position: relative;
   display: inline-block;
   background: transparent;
-  font-family: "Chakra Petch", sans-serif;
+  font-family: "Spoqa Han Sans Neo", sans-serif;
   color: #fff;
   font-weight: 700;
   text-transform: uppercase;
@@ -280,7 +280,7 @@
   position: relative;
   display: inline-block;
   background: #F3FF00;
-  font-family: "Chakra Petch", sans-serif;
+  font-family: "Spoqa Han Sans Neo", sans-serif;
   color: #000;
   font-weight: 700;
   text-transform: uppercase;
@@ -380,7 +380,7 @@
   line-height: 1.6;
   color: #F3FF00;
   text-transform: uppercase;
-  font-family: "IBM Plex Mono", monospace;
+  font-family:'Spoqa Han Sans Neo', 'sans-serif';
   margin-bottom: 8px;
   letter-spacing: 0.6px;
 }
@@ -406,7 +406,7 @@
   position: absolute;
   top: 20px;
   left: 30%;
-  font-family: "Chakra Petch", sans-serif;
+  font-family: "Spoqa Han Sans Neo", sans-serif;
   font-size: 14px;
   line-height: 22px;
   text-transform: uppercase;
@@ -456,7 +456,7 @@
   line-height: 24px;
   text-transform: uppercase;
   font-weight: 700;
-  font-family: "Chakra Petch", sans-serif;
+  font-family: "Spoqa Han Sans Neo", sans-serif;
   color: #fff;
   letter-spacing: 0.6px;
 }
@@ -515,7 +515,7 @@
   font-size: 16px;
   line-height: 24px;
   font-weight: 700;
-  font-family: "Chakra Petch", sans-serif;
+  font-family: "Spoqa Han Sans Neo", sans-serif;
   border: 1px solid #565660;
   background: transparent;
   width: 36px;
@@ -564,7 +564,7 @@
   font-weight: 400;
   top: 0;
   left: 0;
-  font-family: "IBM Plex Mono", monospace;
+  font-family: "Spoqa Han Sans Neo", 'sans-serif';
 }
 .details .detail .post .title {
   margin-bottom: 18px;
@@ -637,7 +637,7 @@
   font-weight: 400;
 }
 .wrap-widget .widget.widget-tag ul li a {
-  font-family: "IBM Plex Mono", monospace;
+  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
   font-size: 17px;
   line-height: 1.64;
 }
@@ -712,7 +712,7 @@
   font-size: 14px;
   line-height: 1.57;
   font-weight: 700;
-  font-family: "Chakra Petch", sans-serif;
+  font-family: "Spoqa Han Sans Neo", sans-serif;
   margin-bottom: 3px;
   text-transform: uppercase;
   color: #565660;
@@ -887,8 +887,8 @@
   height: 100%;
   background: url("./../../assets/images/backgroup/bg-1.png") center center no-repeat;
   background-size: cover;
-  opacity: 0.5;
-  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 1);
   
 }
 
@@ -916,7 +916,7 @@
   opacity: 0.5;
 }
 .main .page-title .slider-st3 {
-  padding: 299px 0 300px;
+  padding: 150px 0 300px;
   background: none;
 }
 .main .page-title .slider-st3 .overlay {
@@ -1009,7 +1009,7 @@
 }
 
 .swiper-slide-active .box-slider .image {
-  transform: translateX(0px);
+  /*transform: translateX(0px);*/
 }
 
 .swiper-slide-active .box-slider .content-box .wrap-btn,
@@ -1065,7 +1065,7 @@
   line-height: 96px;
   color: rgba(34, 183, 143, 0.1);
   font-weight: 700;
-  font-family: "Chakra Petch", sans-serif;
+  font-family: "Spoqa Han Sans Neo", sans-serif;
 }
 
 .roadmap {
@@ -2574,7 +2574,7 @@
   font-size: 20px;
   line-height: 26px;
   color: #B9B9BF;
-  font-family: "Chakra Petch", sans-serif;
+  font-family: "Spoqa Han Sans Neo", sans-serif;
   font-weight: 700;
 }
 .flat-tabs .menu-tab li.active span, .flat-tabs .menu-tab li:hover span {
@@ -3071,7 +3071,7 @@
   padding: 88px 0 80px;
   text-align: center;
   position: relative;
-  background: #141A31;
+  background: #000;
 }
 #footer .footer-main .bg1,
 #footer .footer-main .bg2 {
@@ -3108,7 +3108,7 @@
 #footer .footer-bottom {
   margin-top: 1px;
   padding: 17px 0 15px;
-  background: #141A31;
+  background: #000;
 }
 #footer .footer-bottom .wrap-fx {
   display: flex;
@@ -4722,7 +4722,7 @@
 }
 
 .page-title {
-  background: #141A31;
+  background: #000;
   padding: 146px 0 59px;
 }
 
@@ -4752,7 +4752,7 @@
   padding: 90px 0;
 }
 .tf-section.tf-team {
-  background: #141A31;
+  background: #000;
 }
 .tf-section.tf-team.style2 {
   padding: 90px 0 48px;
@@ -4785,7 +4785,7 @@
   padding: 90px 0 64px;
 }
 .main.home2 .post-item .tag {
-  font-family: "Chakra Petch", sans-serif;
+  font-family: "Spoqa Han Sans Neo", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
 }
@@ -4921,7 +4921,7 @@
 .home3 .tf-section.item-post .post-item .tag {
   text-transform: uppercase;
   font-weight: 700;
-  font-family: "Chakra Petch", sans-serif;
+  font-family: "Spoqa Han Sans Neo", sans-serif;
 }
 .home3 .tf-section.faq {
   padding: 161px 0 56px;
@@ -5118,7 +5118,7 @@
   margin-left: 45px;
   font-size: 20px;
   line-height: 1.5;
-  font-family: "Chakra Petch", sans-serif;
+  font-family: "Spoqa Han Sans Neo", sans-serif;
 }
 .comimg-soon .sub-heading span {
   margin: 0 28px 0 0;
@@ -5164,7 +5164,7 @@
 .comimg-soon .countdown__item span {
   font-size: 44px;
   line-height: 1.27;
-  font-family: "Chakra Petch", sans-serif;
+  font-family: "Spoqa Han Sans Neo", sans-serif;
   color: #fff;
   font-weight: 700;
 }
@@ -6737,12 +6737,12 @@ html {
 }
 
 body {
-  font-family: "IBM Plex Mono", monospace;
+  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
   font-size: 17px;
   line-height: 28px;
   font-weight: 400;
   color: #B9B9BF;
-  background-color: #0c1226;
+  background-color: #000;
 }
 
 img {
@@ -6757,7 +6757,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Chakra Petch", sans-serif;
+  font-family: "Spoqa Han Sans Neo", sans-serif;
   font-weight: 700;
   color: #fff;
 }
@@ -6800,7 +6800,7 @@ h6,
 
 .h7,
 .h8 {
-  font-family: "Chakra Petch", sans-serif;
+  font-family: "Spoqa Han Sans Neo", sans-serif;
   font-weight: 700;
   color: #fff;
 }
@@ -7067,7 +7067,7 @@ input[type=search],
 input[type=tel],
 input[type=color] {
   border: 1px solid rgba(255, 255, 255, 0.2);
-  font-family: "IBM Plex Mono", monospace;
+  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
   outline: 0;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -7097,7 +7097,7 @@ input[type=url]::placeholder,
 input[type=search]::placeholder,
 input[type=tel]::placeholder,
 input[type=color]::placeholder {
-  font-family: "IBM Plex Mono", monospace;
+  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
   color: #565660;
 }
 
@@ -7214,3 +7214,9 @@ input[type=color]::placeholder {
 }
 
 /*# sourceMappingURL=app.css.map */
+
+
+#bg-canvas{
+  position:absolute;
+  z-index:1;
+}
