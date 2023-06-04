@@ -101,14 +101,14 @@
 			var m2 = (plusminus2 > 0) ? Math.ceil(plusminus2) : Math.floor(plusminus2);
 			
 			settings.coordinates.push({
-				x1: m*canvas.width/2,
-				y1: m2*canvas.height/3,
-				x2: Math.random()*canvas.width-canvas.width/2,
-				y2: Math.random()*canvas.height-canvas.height/2,
-				x3: Math.random()*canvas.width-canvas.width/2,
-				y3: Math.random()*canvas.height-canvas.height/2,
-				x4: -m*canvas.width/2,
-				y4: -m2*canvas.height/3,
+				x1: 0,
+				y1: canvas.height,
+				x2: 0,
+				y2: canvas.height-canvas.height/2,
+				x3: 0,
+				y3: canvas.height-canvas.height/2,
+				x4: 0,
+				y4: canvas.height/3,
 				kx1: 15,
 				ky1: 15*Math.random(),
 				kx2: 15,
